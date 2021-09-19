@@ -10,8 +10,7 @@ But I updated gradle and some other grammars for latest updates(2019/11).
 
 1. boot application
 ```shell script
-pring-kotlin-demo on  master [!+]
-➜ ./gradlew bootRun
+$ ./gradlew bootRun
 
 > Task :bootRun
 
@@ -43,7 +42,7 @@ pring-kotlin-demo on  master [!+]
 
 2. call API
 ```shell script
-➜ curl http://localhost:8080/greeting\?name\=kou_cs | jq .
+$ curl http://localhost:8080/greeting\?name\=kou_cs | jq .
 {
   "id": 1,
   "content": "Hello, kou_cs"
