@@ -1,4 +1,4 @@
-package samples.hello
+package samples.log
 
 @Target(AnnotationTarget.FUNCTION)
 @Retention(AnnotationRetention.RUNTIME)
